@@ -1,0 +1,30 @@
+{
+    "name": "c-MC6470",
+    "version": "1.0.0",
+    "description": "C library for the mCube 6-axis eCompass mc6470.",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:jcu-eresearch/c-MC6470.git"
+    },
+    "keywords": [
+      "Sensor"
+    ],
+    "authors": [
+      {
+        "name": "NigelB"
+      }
+    ],
+    "frameworks": [
+      "*"
+    ],
+    "dependencies": {
+    },
+    "license": "GPL-3.0",
+    "build": {
+      "libArchive": false,
+      "srcFilter": [
+        "+<*.c>",
+        "+<*.h>"
+      ]
+    }
+  }
